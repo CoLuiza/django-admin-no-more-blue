@@ -1,0 +1,17 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+    {{ block.super }}
+    <form action="set-theme/">
+        <label for="theme">Choose a theme:</label>
+        <select name="theme" id="theme">
+            <option value="base">Base Theme (Light blue)</option>
+            <option value="blueberry">Blueberry Theme (Blue)</option>
+            <option value="apple">Green Apple Theme (Green)</option>
+            <option value="melon">Melon Theme (Dark Green)</option>
+            <option value="peach">Peach Theme (Orange)</option>
+            <option value="plum">Plum Theme (Purple)</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+{% endblock %}

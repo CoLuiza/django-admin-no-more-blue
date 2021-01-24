@@ -1,0 +1,4 @@
+{% extends "admin/login.html" %}
+{% load theme_static %}
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% theme_static "admin/css/login.css" request.session %}">
+{% endblock %}

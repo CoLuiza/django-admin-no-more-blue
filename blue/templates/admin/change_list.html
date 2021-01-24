@@ -1,0 +1,9 @@
+{% extends "admin/change_list.html" %}
+{% load theme_static %}
+{% block extrastyle %}
+  {{ block.super }}
+  <link rel="stylesheet" type="text/css" href="{% theme_static "admin/css/changelists.css" request.session.name %}">
+  {% if cl.formset %}
+    <link rel="stylesheet" type="text/css" href="{% theme_static "admin/css/forms.css" request.session.name %}">
+  {% endif %}
+{% endblock %}

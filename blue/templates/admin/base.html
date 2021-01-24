@@ -1,0 +1,18 @@
+{% extends "admin/base.html" %}
+{% load i18n theme_static themes static%}
+{% block extrastyle %}
+<link rel="stylesheet" type="text/css" href="{% block stylesheet %}{% theme_static "admin/css/base.css" request.session %}{% endblock %}">
+{% if not is_popup and is_nav_sidebar_enabled %}
+  <link rel="stylesheet" type="text/css" href="{% theme_static "admin/css/nav_sidebar.css" %}">
+  <script src="{% static 'admin/js/nav_sidebar.js' %}" defer></script>
+
+{% endif %}
+{% endblock %}
+{% block userlinks %}
+    {% get_theme_context %}
+    {% if not static_theme %}
+        / <a href="/themes/"> Change theme </a> /
+    {% endif %}
+    {{ block.super }}
+
+{% endblock %}
