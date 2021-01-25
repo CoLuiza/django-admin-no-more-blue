@@ -10,15 +10,18 @@ After you follow the guide bellow on getting started with django-admin-no-more-b
 If STATIC_THEME is False
 
 The theme will be selected by every user and will be saved on the session
-![input](https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR1.PNG?raw=true)
-![input](https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR2.PNG?raw=true)
-![input](https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR3.PNG?raw=true)
+
+![SCR1](https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR1.PNG?raw=true)
+
+![SCR2](https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR2.PNG?raw=true)
+
+![SCR3](https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR3.PNG?raw=true)
 
 If STATIC_THEME is True
 
 The select theme option will not be visible anymore and all the users will see the theme configured in settings.
 
-![input](https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR4.PNG?raw=true)
+![SCR4](https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR4.PNG?raw=true)
 
 
 Quick Start
