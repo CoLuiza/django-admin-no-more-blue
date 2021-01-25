@@ -84,7 +84,8 @@ TEMPLATES should look like this::
 * And as a final step add STATIC_THEME and THEME variables in your settings.
 
     STATIC_THEME - True/False depending on whether you want the theme to be static and all the users will have the same theme.
-    THEME - if the theme is static (STATIC_THEME = True) you can set which theme you want to be rendered. Here you should set the AKA for the theme.
+    
+    THEME - if the theme is static (STATIC_THEME = True) you can set which theme you want to render. Here you should set the AKA for the theme.
 
 List of themes:
    =========  ===================  ========
