@@ -1,10 +1,10 @@
 from django.views.generic import TemplateView, RedirectView
 
-from blue.themes.manager import Themes
+from no_more_blue.themes.manager import Themes
 
 
 class ThemeSelectorView(TemplateView):
-    template_name = "blue/themeselector.html"
+    template_name = "no_more_blue/themeselector.html"
 
     def get_context_data(self, **kwargs):
         current_context = super().get_context_data(**kwargs)

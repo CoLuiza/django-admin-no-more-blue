@@ -5,7 +5,7 @@ from django.apps import apps
 from django.utils.encoding import iri_to_uri
 from django.utils.html import conditional_escape
 
-from blue.themes.manager import ThemeManager
+from no_more_blue.themes.manager import ThemeManager
 
 register = template.Library()
 

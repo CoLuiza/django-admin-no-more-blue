@@ -1,6 +1,6 @@
 from enum import Enum
 
-from nmb import settings
+from django.conf import settings
 
 
 class Themes(Enum):
