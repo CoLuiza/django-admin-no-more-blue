@@ -2,6 +2,9 @@
 Django admin - No more blue
 ===========================
 Django admin - no more blue is a Django app that let you choose a skin for your django admin. You can let your users to set their favorite theme on the session or you can choose to statically set the theme for the entire application.
+With a variations of fruity themes you can now set a unique skin for your Django.
+
+Color your environments! It's easier not to break something into production now.
 
 Show me how to use it
 ---------------------
@@ -11,18 +14,25 @@ If STATIC_THEME is False
 
 The theme will be selected by every user and will be saved on the session
 
-![SCR1](https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR1.PNG?raw=true)
+.. image:: https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR1.PNG?raw=true
 
-![SCR2](https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR2.PNG?raw=true)
+You can spot the CHANGE THEME button, don't be shy! Click it!
 
-![SCR3](https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR3.PNG?raw=true)
+.. image:: https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR2.PNG?raw=true
+
+Let's say we change the theme to PLUM.
+
+.. image:: https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR3.PNG?raw=true
+
+That's it, your theme is now purple and fine!
 
 If STATIC_THEME is True
 
 The select theme option will not be visible anymore and all the users will see the theme configured in settings.
 
-![SCR4](https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR4.PNG?raw=true)
+.. image:: https://github.com/CoLuiza/django-admin-no-more-blue/blob/master/docs/images/SCR4.PNG?raw=true
 
+As you can see, in the settings, the THEME is set to "apple".
 
 Quick Start
 -----------
