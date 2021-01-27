@@ -10,6 +10,7 @@ class Themes(Enum):
     APPLE = "apple"
     BLUEBERRY = "blueberry"
     MELON = "melon"
+    GRAPES = "grapes"
 
 
 class ThemeManager:

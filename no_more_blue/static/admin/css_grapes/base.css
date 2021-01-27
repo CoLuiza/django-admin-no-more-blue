@@ -1,90 +1,90 @@
 body {
-    color: #333;
-    background: #fff;
+    color: #333333;
+    background: #ffffff;
 }
 
 
 a:link, a:visited {
-    color: #447e9b;
+    color: #7a1989;
 }
 
 a:focus, a:hover {
-    color: #036;
+    color: #540451;
 }
 
 a.section:link, a.section:visited {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
 h1 {
-    color: #666;
+    color: #666666;
 }
 
 
 h3 {
-    color: #666;
+    color: #666666;
 }
 
 h5 {
-    color: #666;
+    color: #666666;
 }
 
 blockquote {
-    color: #777;
-    border-left: 5px solid #ddd;
+    color: #777777;
+    border-left: 5px solid #dddddd;
 }
 
 code, pre {
-    color: #666;
+    color: #666666;
 }
 
 pre.literal-block {
-    background: #eee;
+    background: #ededed;
 }
 
 code strong {
-    color: #930;
+    color: #993300;
 }
 
 hr {
-    color: #eee;
-    background-color: #eee;
+    color: #ededed;
+    background-color: #ededed;
 }
 
 
 .help, p.help, form p.help, div.help, form div.help, div.help li {
-    color: #999;
+    color: #999999;
 }
 
 .quiet, a.quiet:link, a.quiet:visited {
-    color: #999;
+    color: #999999;
 }
 
 
 table {
-    border-color: #ccc;
+    border-color: #cccccc;
 }
 
 td, th {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ededed;
 }
 
 
 thead th,
 tfoot td {
-    color: #666;
-    background: #fff;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    color: #666666;
+    background: #ffffff;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
 }
 
 tfoot td {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #ededed;
 }
 
 thead th.required {
-    color: #000;
+    color: #000000;
 }
 
 tr.alt {
@@ -92,14 +92,14 @@ tr.alt {
 }
 
 tr:nth-child(odd), .row-form-errors {
-    background: #fff;
+    background: #ffffff;
 }
 
 tr:nth-child(even),
 tr:nth-child(even) .errorlist,
 tr:nth-child(odd) + .row-form-errors,
 tr:nth-child(odd) + .row-form-errors .errorlist {
-    background: #f9f9f9;
+    background: #f8f8f8;
 }
 
 thead th {
@@ -107,159 +107,159 @@ thead th {
 }
 
 thead th a:link, thead th a:visited {
-    color: #666;
+    color: #666666;
 }
 
 thead th.sorted {
-    background: #eee;
+    background: #ededed;
 }
 
 table thead th .text a:focus, table thead th .text a:hover {
-    background: #eee;
+    background: #ededed;
 }
 
 
 
 table thead th.sorted .sortoptions a.sortremove:after {
-    color: #999;
+    color: #999999;
 }
 
 table thead th.sorted .sortoptions a.sortremove:focus:after,
 table thead th.sorted .sortoptions a.sortremove:hover:after {
-    color: #447e9b;
+    color: #7a1989;
 }
 
 input[type=text], input[type=password], input[type=email], input[type=url],
 input[type=number], input[type=tel], textarea, select, .vTextField {
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
 }
 
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus,
 input[type=url]:focus, input[type=number]:focus, input[type=tel]:focus,
 textarea:focus, select:focus, .vTextField:focus {
-    border-color: #999;
+    border-color: #999999;
 }
 
 
 .button, input[type=submit], input[type=button], .submit-row input, a.button {
-    background: #79aec8;
-    color: #fff;
+    background: #a540b6;
+    color: #ffffff;
 }
 
 
 .button:active, input[type=submit]:active, input[type=button]:active,
 .button:focus, input[type=submit]:focus, input[type=button]:focus,
 .button:hover, input[type=submit]:hover, input[type=button]:hover {
-    background: #609ab6;
+    background: #932da4;
 }
 
 
 .button.default, input[type=submit].default, .submit-row input.default {
-    background: #417690;
+    background: #70197e;
 }
 
 .button.default:active, input[type=submit].default:active,
 .button.default:focus, input[type=submit].default:focus,
 .button.default:hover, input[type=submit].default:hover {
-    background: #205067;
+    background: #490555;
 }
 
 .module {
-    background: #fff;
+    background: #ffffff;
 }
 
 
 .module h2, .module caption, .inline-group h2 {
-    background: #79aec8;
-    color: #fff;
+    background: #a540b6;
+    color: #ffffff;
 }
 
 
 ul.messagelist li {
-    background-color: #dfd;
-    color: #333;
+    background-color: #ddffdd;
+    color: #333333;
 }
 
 ul.messagelist li.warning {
-    background-color: #ffc;
+    background-color: #ffffff;
 }
 
 ul.messagelist li.error {
-    background-color: #ffefef;
+    background-color: #ffeeee;
 }
 
 .errornote {
-    color: #ba2121;
-    border: 1px solid #ba2121;
-    background-color: #fff;
+    color: #b92020;
+    border: 1px solid #b92020;
+    background-color: #ffffff;
 }
 
 ul.errorlist {
-    color: #ba2121;
-    background: #fff;
+    color: #b92020;
+    background: #ffffff;
 }
 
 .form-row.errors {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ededed;
 }
 
 .errors input, .errors select, .errors textarea,
 td ul.errorlist + input, td ul.errorlist + select, td ul.errorlist + textarea {
-    border: 1px solid #ba2121;
+    border: 1px solid #b92020;
 }
 
 
 div.breadcrumbs {
-    background: #79aec8;
-    color: #c4dce8;
+    background: #a540b6;
+    color: #ca7fd6;
 }
 
 div.breadcrumbs a {
-    color: #fff;
+    color: #ffffff;
 }
 
 div.breadcrumbs a:focus, div.breadcrumbs a:hover {
-    color: #c4dce8;
+    color: #ca7fd6;
 }
 
 a.deletelink:link, a.deletelink:visited {
-    color: #CC3434;
+    color: #cc3434;
 }
 
 a.deletelink:focus, a.deletelink:hover {
-    color: #993333;
+    color: #993232;
 }
 
 
 .object-tools a:link, .object-tools a:visited {
-    background: #999;
-    color: #fff;
+    background: #999999;
+    color: #ffffff;
 }
 
 .object-tools a:focus, .object-tools a:hover {
-    background-color: #417690;
+    background-color: #70197e;
 }
 
 
 #header {
-    background: #417690;
-    color: #ffc;
+    background: #70197e;
+    color: #ffffff;
 }
 
 #header a:link, #header a:visited {
-    color: #fff;
+    color: #ffffff;
 }
 
 #branding h1 {
-    color: #f5dd5d;
+    color: #ffffff;
 }
 
 #branding h1, #branding h1 a:link, #branding h1 a:visited {
-    color: #f5dd5d;
+    color: #ffffff;
 }
 
 #branding h2 {
-    color: #ffc;
+    color: #ffffff;
 }
 
 #user-tools a {
@@ -267,8 +267,8 @@ a.deletelink:focus, a.deletelink:hover {
 }
 
 #user-tools a:focus, #user-tools a:hover {
-    border-bottom-color: #79aec8;
-    color: #79aec8;
+    border-bottom-color: #a540b6;
+    color: #a540b6;
 }
 
 
@@ -277,34 +277,34 @@ a.deletelink:focus, a.deletelink:hover {
 }
 
 #content-related h3 {
-    color: #666;
+    color: #666666;
 }
 
 
 
 #content-related .module h2 {
     border-bottom: 1px solid #eaeaea;
-    color: #333;
+    color: #333333;
 }
 
 .delete-confirmation form input[type="submit"] {
-    background: #ba2121;
-    color: #fff;
+    background: #b92020;
+    color: #ffffff;
 }
 
 .delete-confirmation form input[type="submit"]:active,
 .delete-confirmation form input[type="submit"]:focus,
 .delete-confirmation form input[type="submit"]:hover {
-    background: #a41515;
+    background: #a31414;
 }
 
 .delete-confirmation form .cancel-link {
-    background: #ddd;
+    background: #dddddd;
 }
 
 .delete-confirmation form .cancel-link:active,
 .delete-confirmation form .cancel-link:focus,
 .delete-confirmation form .cancel-link:hover {
-    background: #ccc;
+    background: #cccccc;
 }
 

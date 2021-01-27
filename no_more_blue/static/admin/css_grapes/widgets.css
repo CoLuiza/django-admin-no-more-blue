@@ -3,7 +3,7 @@
 }
 
 .selector-chosen h2 {
-    background: #c776ad;
+    background: #a540b6;
     color: #ffffff;
 }
 
@@ -28,7 +28,7 @@ a.selector-chooseall, a.selector-clearall {
 
 a.active.selector-chooseall:focus, a.active.selector-clearall:focus,
 a.active.selector-chooseall:hover, a.active.selector-clearall:hover {
-    color: #9b427d;
+    color: #7a1989;
 }
 
 .stacked ul.selector-chooser {
@@ -84,7 +84,7 @@ span.clearable-file-input label {
 }
 
 .calendar td.selected a {
-    background: #c776ad;
+    background: #a540b6;
     color: #ffffff;
 }
 
@@ -94,12 +94,12 @@ span.clearable-file-input label {
 
 .calendar td a:focus, .timelist a:focus,
 .calendar td a:hover, .timelist a:hover {
-    background: #c776ad;
+    background: #a540b6;
     color: white;
 }
 
 .calendar td a:active, .timelist a:active {
-    background: #903f75;
+    background: #70197e;
     color: white;
 }
 

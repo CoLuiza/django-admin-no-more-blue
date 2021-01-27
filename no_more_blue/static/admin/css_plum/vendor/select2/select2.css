@@ -287,7 +287,7 @@
             padding-left: 6em; }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-  background-color: #fa5897;
+  background-color: #fa5595;
   color: white; }
 
 .select2-container--default .select2-results__group {
@@ -304,9 +304,9 @@
   background-image: -o-linear-gradient(top, white 50%, #ededed 100%);
   background-image: linear-gradient(to bottom, white 50%, #ededed 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffFF', endColorstr='#edffedEE', GradientType=0); }
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffFF', endColorstr='#ffededEE', GradientType=0); }
   .select2-container--classic .select2-selection--single:focus {
-    border: 1px solid #fa5897; }
+    border: 1px solid #fa5595; }
   .select2-container--classic .select2-selection--single .select2-selection__rendered {
     color: #444444;
     line-height: 28px; }
@@ -332,7 +332,7 @@
     background-image: -o-linear-gradient(top, #ededed 50%, #cccccc 100%);
     background-image: linear-gradient(to bottom, #ededed 50%, #cccccc 100%);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edffedEE', endColorstr='#ccffccCC', GradientType=0); }
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffededEE', endColorstr='#ffccccCC', GradientType=0); }
     .select2-container--classic .select2-selection--single .select2-selection__arrow b {
       border-color: #878787 transparent transparent transparent;
       border-style: solid;
@@ -358,7 +358,7 @@
   right: auto; }
 
 .select2-container--classic.select2-container--open .select2-selection--single {
-  border: 1px solid #fa5897; }
+  border: 1px solid #fa5595; }
   .select2-container--classic.select2-container--open .select2-selection--single .select2-selection__arrow {
     background: transparent;
     border: none; }
@@ -374,7 +374,7 @@
   background-image: -o-linear-gradient(top, white 0%, #ededed 50%);
   background-image: linear-gradient(to bottom, white 0%, #ededed 50%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffFF', endColorstr='#edffedEE', GradientType=0); }
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffFF', endColorstr='#ffededEE', GradientType=0); }
 
 .select2-container--classic.select2-container--open.select2-container--below .select2-selection--single {
   border-bottom: none;
@@ -384,7 +384,7 @@
   background-image: -o-linear-gradient(top, #ededed 50%, white 100%);
   background-image: linear-gradient(to bottom, #ededed 50%, white 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edffedEE', endColorstr='#ffffffFF', GradientType=0); }
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffededEE', endColorstr='#ffffffFF', GradientType=0); }
 
 .select2-container--classic .select2-selection--multiple {
   background-color: white;
@@ -393,7 +393,7 @@
   cursor: text;
   outline: 0; }
   .select2-container--classic .select2-selection--multiple:focus {
-    border: 1px solid #fa5897; }
+    border: 1px solid #fa5595; }
   .select2-container--classic .select2-selection--multiple .select2-selection__rendered {
     list-style: none;
     margin: 0;
@@ -428,7 +428,7 @@
   margin-right: auto; }
 
 .select2-container--classic.select2-container--open .select2-selection--multiple {
-  border: 1px solid #fa5897; }
+  border: 1px solid #fa5595; }
 
 .select2-container--classic.select2-container--open.select2-container--above .select2-selection--multiple {
   border-top: none;
@@ -469,7 +469,7 @@
   color: grey; }
 
 .select2-container--classic .select2-results__option--highlighted[aria-selected] {
-  background-color: #d63774;
+  background-color: #d63573;
   color: white; }
 
 .select2-container--classic .select2-results__group {
@@ -478,4 +478,4 @@
   padding: 6px; }
 
 .select2-container--classic.select2-container--open .select2-dropdown {
-  border-color: #fa5897; }
+  border-color: #fa5595; }

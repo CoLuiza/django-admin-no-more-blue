@@ -1,53 +1,53 @@
 
 .form-row {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ededed;
 }
 
 label {
-    color: #666;
+    color: #666666;
 }
 
 .required label, label.required {
-    color: #333;
+    color: #333333;
 }
 
 
 fieldset.collapsed {
-    border: 1px solid #eee;
+    border: 1px solid #ededed;
 }
 
 fieldset.collapsed h2 {
     background: #f8f8f8;
-    color: #666;
+    color: #666666;
 }
 
 fieldset .collapse-toggle {
-    color: #fff;
+    color: #ffffff;
 }
 
 fieldset.collapsed .collapse-toggle {
-    color: #447e9b;
+    color: #7a1989;
 }
 
 .submit-row {
     background: #f8f8f8;
-    border: 1px solid #eee;
+    border: 1px solid #ededed;
 }
 
 .submit-row a.deletelink {
-    background: #ba2121;
-    color: #fff;
+    background: #b92020;
+    color: #ffffff;
 }
 
 .submit-row a.closelink {
-    background: #bbbbbb;
-    color: #fff;
+    background: #bababa;
+    color: #ffffff;
 }
 
 .submit-row a.deletelink:focus,
 .submit-row a.deletelink:hover,
 .submit-row a.deletelink:active {
-    background: #a41515;
+    background: #a31414;
 }
 
 .submit-row a.closelink:focus,
@@ -57,35 +57,35 @@ fieldset.collapsed .collapse-toggle {
 }
 
 .inline-related h3 {
-    color: #666;
+    color: #666666;
     background: #f8f8f8;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
 }
 
 
 .inline-related fieldset {
-    background: #fff;
+    background: #ffffff;
 }
 
 .inline-related fieldset.module h3 {
-    background: #bcd;
-    color: #fff;
+    background: #cb79c8;
+    color: #ffffff;
 }
 
 .inline-group .tabular td.original p {
-    color: #666;
+    color: #666666;
 }
 
 
 .inline-group div.add-row,
 .inline-group .tabular tr.add-row td {
-    color: #666;
+    color: #666666;
     background: #f8f8f8;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ededed;
 }
 
 .inline-group .tabular tr.add-row td {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ededed;
 }
 

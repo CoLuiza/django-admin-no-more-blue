@@ -50,8 +50,7 @@ Quick Start
 
     'libraries': {
                 'themes': 'no_more_blue.templatetags.themes',
-
-            }
+      }
 
 TEMPLATES should look like this::
 
@@ -75,6 +74,9 @@ TEMPLATES should look like this::
 
 * Include URLconf into your project urls.py like this::
 
+    from no_more_blue.urls import themes_urlpatterns
+    ...
+
     urlpatterns = [
         path('themes/', include(themes_urlpatterns)),
         ...
@@ -95,5 +97,6 @@ List of themes:
    apple        Green Apple Theme   Green
    melon        Melon Theme         Dark Green
    peach        Peach Theme         Orange
-   plum         Plum Theme          Purple
+   plum         Plum Theme          Light Purple
+   grapes       Grapes Theme        Purple
    =========  ===================  ========

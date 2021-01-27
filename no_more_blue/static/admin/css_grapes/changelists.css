@@ -62,13 +62,13 @@
 }
 
 #changelist-filter li.selected a {
-    color: #277e3c;
+    color: #a02993;
 }
 
 #changelist-filter a:focus, #changelist-filter a:hover,
 #changelist-filter li.selected a:focus,
 #changelist-filter li.selected a:hover {
-    color: #003308;
+    color: #540451;
 }
 
 #changelist-filter #changelist-filter-clear a {
@@ -82,7 +82,7 @@
 
 .change-list ul.toplinks .date-back a:focus,
 .change-list ul.toplinks .date-back a:hover {
-    color: #003308;
+    color: #540451;
 }
 
 /* PAGINATOR */
@@ -92,21 +92,21 @@
 }
 
 .paginator a:link, .paginator a:visited {
-    background: #3c943c;
+    background: #a540b6;
     color: #ffffff;
 }
 
 .paginator a.showall {
-    color: #277e3c;
+    color: #a02993;
 }
 
 .paginator a.showall:focus, .paginator a.showall:hover {
-    color: #003308;
+    color: #540451;
 }
 
 .paginator a:focus, .paginator a:hover {
     color: white;
-    background: #003308;
+    background: #540451;
 }
 
 #changelist table tbody tr.selected {
