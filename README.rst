@@ -1,8 +1,8 @@
 ===========================
 Django admin - No more blue
 ===========================
-Django admin - no more blue is a Django app that let you choose a skin for your django admin. You can let your users to set their favorite theme on the session or you can choose to statically set the theme for the entire application.
-With a variations of fruity themes you can now set a unique skin for your Django.
+Django admin - no more blue is a Django app that let you choose a skin for your django admin. You can let your users set their favorite theme on the session or you can choose to statically set the theme for the entire application.
+With a variations of fruity themes you can now set a unique appearance for your Django.
 
 Color your environments! It's easier not to break something into production now.
 
@@ -102,3 +102,5 @@ List of themes:
    plum         Plum Theme          Light Purple
    grapes       Grapes Theme        Purple
    =========  ===================  ========
+
+* That's it! Do not forget to use collectstatic when you are not in DEBUG mode
