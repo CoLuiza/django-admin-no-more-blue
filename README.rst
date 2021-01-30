@@ -39,11 +39,13 @@ Quick Start
 * Add "no_more_blue" to your INSTALLED_APPS settings like this::
 
     INSTALLED_APPS = [
-        'no_more_blue',
+        ...
+       'no_more_blue',
+        'django.contrib.admin',
         ...
     ]
 
-! The order is important
+! The order is important. Place the app before the default admin app. 
 
 * In settings.py, make sure you have 'django.template.context_processors.request' added in the context_processors.
 * In settings.py, at TEMPLATES section, inside 'OPTIONS', at the same level with context_processors, add::
@@ -87,7 +89,8 @@ TEMPLATES should look like this::
 
     STATIC_THEME - True/False depending on whether you want the theme to be static and all the users will have the same theme.
 
-    THEME - if the theme is static (STATIC_THEME = True) you can set which theme you want to render. Here you should set the AKA for the theme.
+    THEME - if the theme is static (STATIC_THEME = True) you can set which theme you want to render. Here you should set the AKA for the theme. e.g. THEME = 'plum'
+
 
 
 List of themes:
